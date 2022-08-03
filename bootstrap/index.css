@@ -1,0 +1,128 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+.navbarflex{
+    display: flex;
+}
+.navbar-nav{
+    font-size: 19px;
+    font-weight: 500;
+
+}
+.nav-item a{
+    color: grey;
+}
+.Logistics{
+    margin-top: 110px;
+}
+.Logistics h3{
+    font-size: 23px;
+}
+.Logistics h1{
+    font-size: 55px;
+}
+
+.Box{
+    width: 70%;
+    border: 1px solid green;
+    height: 45px;
+    border-radius: 20px;
+}
+.Box input{
+    margin-top: 9px;
+    margin-left:25px ;
+    width: 50%;
+    border: none;
+    outline: none;
+}
+input::placeholder{
+font-weight: 600;
+
+}
+.Box button{
+    border-radius: 20px;
+    width: 20%;
+    margin-left: 20%;
+    color: #fff;
+    background-color: green;
+}
+
+.Logistics p{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.Logistic-image{
+    margin-left: 100px;
+    margin-top: 80px;
+    
+}
+.Logistic-image img{
+    width: 500px;
+   
+}
+
+.social-icon {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 0.6rem;
+    border-width: 2px;
+    border-style: solid;
+    border-color:#328250;
+    border-image: initial;
+    border-radius: 50px;
+}
+
+.social-icon a i{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: black;
+}
+
+.contact.info i{
+    font-size: 20px;
+    color: #328250;
+    float: left;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    background-color: rgb(231, 245,251);
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.contact.info{
+    width: 100px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 24px 0px;
+    border-top:0px 3px  solid #328250;
+    padding: 30px;  
+}
+
+.section-title{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.contact .info {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 24px 0px;
+    border-top: 3px solid rgb(50, 130, 80);
+    border-bottom: 3px solid rgb(50, 130, 80);
+    padding: 30px;
+    background: rgb(255, 255, 255);
+}
+.contact .php-email-form{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 24px 0px;
+    border-top: 3px solid rgb(50, 130, 80);
+    border-bottom: 3px solid rgb(50, 130, 80);
+    padding: 30px;
+    background: rgb(255, 255, 255);
+}
+
